@@ -46,7 +46,7 @@ double sher_eq::S()
     }
     return SUM;
 }
-void sher_eq::search()
+double sher_eq::search()
 {
     bool N = true;
     double res;
@@ -81,4 +81,5 @@ void sher_eq::search()
             N = false;
         }
     } while (N == true);
+    return res;
 }

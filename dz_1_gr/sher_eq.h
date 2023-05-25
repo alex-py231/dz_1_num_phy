@@ -34,7 +34,7 @@ public:
 		this->x_start_b = x_start_b;
 		this->x_stop_b = x_stop_b;
 	}
-	void search();
+	double search();
 	double get_a() { return a; }
 	double get_b() { return b; }
 	~sher_eq() {};
